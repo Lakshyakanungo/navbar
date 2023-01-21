@@ -81,4 +81,19 @@ input[type="checkbox"] {
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 750px) {
+   .hamburger {
+    font-size: 32px;
+    display: block;
+  }
+.menu{
+  display: none;
 }
+
+ 
+  input[type="checkbox"]:checked ~ .menu  {
+    display: block;
+
+}
+
+  }
+
