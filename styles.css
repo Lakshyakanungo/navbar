@@ -56,31 +56,29 @@ li {
   display: none;
   position: absolute; /* With respect to parent*/
   border-radius: 8px;
+  /* top: 35px; */
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
 }
 
 .services:hover .dropdown {
   display: block;
 }
 
-/* RESPONSIVE NAVBAR MENU */
+/* RESPONSIVE STYLING */
 input[type="checkbox"] {
   display: none;
 }
 
 .hamburger {
+  font-size: 32px;
   display: none;
 }
 
+/* APPLYING MEDIA QUERIES */
 @media (max-width: 750px) {
-  .menu {
-    display: none;
-    position: absolute;
-  }
-  .hamburger {
-    display: block;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: block;
-  }
 }
